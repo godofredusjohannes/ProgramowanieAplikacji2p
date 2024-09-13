@@ -1,0 +1,40 @@
+body {
+    background-color: cyan;
+}
+
+header {
+    color: darkgoldenrod;
+}
+
+h1, h2, h3 {
+    text-align: center;
+}
+
+.argument {
+    background-color: lightcyan;
+    border: black dashed 1px;
+    color: goldenrod;
+}
+
+.Table {
+    width: 70%;
+    margin-left: 15%;
+    margin-right: 15%;
+    padding: 10px;
+    text-align: center;
+}
+
+th {
+    background-color: darkblue;
+    color: white;
+    text-align: left;
+}
+
+td {
+    background-color: blue;
+    color: white;
+}
+
+th, td {
+    border: black solid 2px;
+}
