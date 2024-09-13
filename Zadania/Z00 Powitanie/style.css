@@ -1,0 +1,20 @@
+body {
+    background-color: #0effb0;
+    font-family: Calibri;
+}
+
+header {
+    background-color: #08ff72;
+    color: #003f3d;
+    text-align: center;
+    padding: 5px;
+    border: #003f3d dashed 5px;
+}
+
+section {
+    background-color: #0dd68f;
+    padding: 10px;
+    border-right: #003f3d dashed 5px;
+    border-bottom: #003f3d dashed 5px;
+    border-left: #003f3d dashed 5px;
+}
