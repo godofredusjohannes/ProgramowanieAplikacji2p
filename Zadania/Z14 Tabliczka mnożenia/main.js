@@ -21,17 +21,17 @@ btn.addEventListener('click', function() {
     wynik.innerHTML = `
     
     x = ${a}<br>
-    0 x ${a} = ${a1}<br>
-    1 x ${a} = ${a2}<br>
-    2 x ${a} = ${a3}<br>
-    3 x ${a} = ${a4}<br>
-    4 x ${a} = ${a5}<br>
-    5 x ${a} = ${a6}<br>
-    6 x ${a} = ${a7}<br>
-    7 x ${a} = ${a8}<br>
-    8 x ${a} = ${a9}<br>
-    9 x ${a} = ${a10}<br>
-    10 x ${a} = ${a11}<br>
+    0 x ${a} = ${a1.toFixed(0)}<br>
+    1 x ${a} = ${a2.toFixed(0)}<br>
+    2 x ${a} = ${a3.toFixed(0)}<br>
+    3 x ${a} = ${a4.toFixed(0)}<br>
+    4 x ${a} = ${a5.toFixed(0)}<br>
+    5 x ${a} = ${a6.toFixed(0)}<br>
+    6 x ${a} = ${a7.toFixed(0)}<br>
+    7 x ${a} = ${a8.toFixed(0)}<br>
+    8 x ${a} = ${a9.toFixed(0)}<br>
+    9 x ${a} = ${a10.toFixed(0)}<br>
+    10 x ${a} = ${a11.toFixed(0)}<br>
     
     `
 })
