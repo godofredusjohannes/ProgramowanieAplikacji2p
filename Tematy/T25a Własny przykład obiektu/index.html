@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <meta charset="UTF-8">
+  <title>T25a</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+<header>
+  <h1>T25a Własny przykład obiektu</h1>
+  <h2>Autor: Seweryn Poczynek 2P</h2>
+</header>
+<section>
+<script>
+let szczur = {
+  imie: "Mietek",
+  wiek: 92,
+  rasa: "tarantula",
+  info: function () {
+    document.write(`Jestem szczurem. Mam na imię ${this.imie}. Mój wiek to: ${this.wiek}. Moja rasa to: ${this.rasa}.`);
+  },
+  zaszczekaj: function () {
+    document.write('<br>' + `Szczur! szczur1`);
+  }
+}
+szczur.info();
+szczur.zaszczekaj();
+
+</script>
+</section>
+</body>
+</html>

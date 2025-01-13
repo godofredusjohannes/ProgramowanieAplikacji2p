@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <meta charset="UTF-8">
+  <title>T25b</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+<header>
+  <h1>T25b Klient i jego zwierzak</h1>
+  <h2>Autor: Seweryn Poczynek 2P</h2>
+</header>
+<section>
+<script>
+function Klient(nazwisko_k, imie_k, zawod_k) {
+  this.imie = imie_k;
+  this.nazwisko = nazwisko_k;
+  this.zawod = zawod_k;
+  this.wypisz = function (){
+  document.write(this.nazwisko + " " + this.imie)
+  }
+  this.info = function (){
+    document.write(`<br>Mam na imię ${this.imie}. Nazywam się ${this.nazwisko}. Mój zawód to: ${this.zawod}.`)
+  }
+}
+let pan_piotrus = new Klient('Kowalski', 'Piotr', 'Gracz');
+pan_piotrus.wypisz();
+pan_piotrus.info();
+
+let pan_cugan = new Klient('Makewski', 'Cugan', 'Sznajper');
+pan_cugan.wypisz();
+pan_cugan.info();
+
+function Zwierzak(imie_z, gatunek, wiek, wlasciciel){
+  this.imie = imie_z;
+  this.gatunek = gatunek;
+  this.wiek = wiek;
+  this.wlasciciel = wlasciciel;
+  this.info = function (){
+    document.write(`Jestem Zwierzakiem. Moje dane to:<br> Gatunek: ${this.gatunek}.<br> Wiek: ${this.wiek}.<br> Imie: ${this.imie}..<br> Właściciel: ${this.wlasciciel}. `)
+  }
+  this.podajWlasciciela = function (){
+    document.write(`Mój właściciel to:<br> ${this.wlasciciel}.`)
+  }
+}
+let kajtek = new Zwierzak('pies', 'Kajetan Trzeci', 3, pan_piotrus.imie)
+kajtek.info();
+kajtek.podajWlasciciela();
+</script>
+</section>
+</body>
+</html>
