@@ -1,0 +1,17 @@
+Kw1:
+CREATE USER 'Agnieszka6'@'localhost' IDENTIFIED BY 'haslo6'
+
+Kw2:
+SELECT AVG(`rocznik`)
+FROM samochody
+WHERE marka = 'opel';
+
+Kw3:
+SELECT DISTINCT samochody.marka, klienci.imie
+FROM wypozyczenia
+JOIN samochody ON wypozyczenia.samochody_id = samochody.klasa_id
+JOIN klienci ON wypozyczenia.klienci_id = klienci.id;
+
+Kw4:
+ALTER TABLE klasa
+DROP COLUMN `cena`;
