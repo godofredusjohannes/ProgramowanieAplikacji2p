@@ -1,12 +1,13 @@
 body {
     margin: 0;
     font-family: Georgia;
+    height: 100vh;
 }
 
 #lewy {
     background-color: maroon;
     color: white;
-    height: 600px;
+    min-height: 97vh;
     width: 30%;
     float: left;
 }
@@ -14,7 +15,7 @@ body {
 #prawy {
     background-color: maroon;
     color: white;
-    height: 600px;
+    min-height: 97vh;
     width: 70%;
     float: left;
 }
@@ -22,6 +23,7 @@ body {
 #stopka {
     background-color: dimgray;
     color: white;
+    height: 3vh;
     width: 100%;
     float: left;
     clear: both;
@@ -34,6 +36,7 @@ p {
 img {
     padding: 10px;
     border: 1px solid white;
+    margin-left: 5px;
 }
 
 #indigo {
@@ -46,4 +49,20 @@ img {
 
 #olive {
     background-color: olive;
+}
+
+#lista {
+    list-style-type: disc;
+}
+
+input {
+    margin-left: 5px;
+}
+
+button {
+    margin-left: 5px;
+}
+
+select {
+    margin-left: 5px;
 }

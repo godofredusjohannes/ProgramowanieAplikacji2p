@@ -19,7 +19,7 @@ document.getElementById("rozmiarCzcionki").addEventListener("blur", function() {
 });
 
 document.getElementById("rysujRamke").addEventListener("change", function() {
-    document.getElementById("obraz").style.border = this.checked ? "2px solid black" : "none";
+    document.getElementById("obraz").style.border = this.checked ? "2px solid white" : "none";
 });
 
 document.querySelectorAll("input[name='punktor']").forEach(function(radio) {
