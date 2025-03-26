@@ -1,0 +1,61 @@
+body {
+    background-color: #EEEEEE;
+}
+
+.container {
+    width: 1000px;
+    margin-right: auto;
+    margin-left: auto;
+    text-align: center;
+    margin-top: 10px;
+}
+
+.logo, .menu, .footer {
+    background-color: #C0C0C0;
+    height: 100px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+}
+
+.logo {
+    float: left;
+    width: 400px;
+}
+
+.menu {
+    float: left;
+    width: 600px;
+}
+
+.banner {
+    background-color: #DDDDDD;
+    height: 200px;
+    clear: both;
+}
+
+.main {
+    clear: both;
+    margin-right: auto;
+    margin-left: auto;
+    padding-top: 50px;
+    padding-bottom: 50px;
+}
+
+.footer {
+    text-align: right;
+    height: 100%;
+}
+
+a   {
+    color: #555555;
+    margin-right: 50px;
+    margin-left: 50px;
+    font-size: 200%;
+    text-decoration: none;
+}
+
+hr {
+    background-color: #C0C0C0;
+    width: 70%;
+    height: 2px;
+}
