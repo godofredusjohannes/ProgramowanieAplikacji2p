@@ -1,0 +1,57 @@
+body {
+    background-color: #99FFCC;
+}
+
+.container {
+    width: 1000px;
+    margin: auto;
+    height: 100%;
+}
+
+.banner {
+    height: 200px;
+    background-color: #99FF66;
+}
+
+.menu {
+    background-color: #66CCFF;
+    text-align: center;
+    padding-top: 20px;
+    padding-bottom: 20px;
+    width: 100%;
+    float: left;
+}
+
+.main1, .main2, .main3 {
+    width: 310px;
+    padding: 10px;
+    float: left;
+}
+
+.footer {
+    background-color: #66CCFF;
+    color: #006666;
+    text-align: right;
+    height: 30px;
+    padding: 20px;
+    clear: both;
+}
+
+.menu a {
+    color: #006666;
+    margin: 50px;
+    font-size: 200%;
+    text-decoration: none;
+}
+
+h2, h3 {
+    text-align: center;
+}
+
+#reset {
+    background-color: #FF0000;
+}
+
+#wyslij {
+    background-color: #00FF00;
+}
