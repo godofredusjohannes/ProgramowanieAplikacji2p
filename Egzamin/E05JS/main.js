@@ -1,14 +1,27 @@
-const krotkie = document.querySelector('input[id="Krótkie"]:checked') ? document.querySelector('input[id="Krótkie"]:checked').value : null;
-const srednie = document.querySelector('input[id="Średnie"]:checked') ? document.querySelector('input[id="Średnie"]:checked').value : null;
-const poldlugie = document.querySelector('input[id="Półdługie"]:checked') ? document.querySelector('input[id="Półdługie"]:checked').value : null;
-const dlugie = document.querySelector('input[id="Długie"]:checked') ? document.querySelector('input[id="Długie"]:checked').value : null;
+const krotkie = document.querySelector('#Krótkie');
+const srednie = document.querySelector('#Średnie');
+const poldlugie = document.querySelector('#Półdługie');
+const dlugie = document.querySelector('#Długie');
 
-const wynik = document.getElementById('#wynik');
-const btn = document.getElementById("button");
+const wynik = document.querySelector('#wynik');
+const btn = document.querySelector('button');
 
-btn.addEventListener('click', () => {
+btn.addEventListener('click', function() {
 
+        let value = 0;
 
-        wynik.innerHTML = `Cena strzyżenia: ${krotkie.value}${srednie.value}${poldlugie.value}${dlugie.value}`;
+        if(krotkie.checked){
+                value = 25;
+        }
+        else if(srednie.checked){
+                value = 30;
+        }
+        else if(poldlugie.checked){
+                value = 40;
+        }
+        else if(dlugie.checked){
+                value = 50;
+        }
+        wynik.innerHTML = `Cena strzyżenia: ${value}zł`;
 
 })
